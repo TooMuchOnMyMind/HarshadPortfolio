@@ -1,2 +1,3 @@
-function myfunction():
-  alert("hello")
+function myfunction() {
+  alert("hello");
+}
