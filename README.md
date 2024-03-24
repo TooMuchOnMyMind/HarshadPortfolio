@@ -1,7 +1,7 @@
 # Harshad's Portfolio!
-This site is made using vercel!
-This site is for potential employers and records my projects and ongoing explorations!
-I used Replit & VS code to build this site!
+- This site is made using vercel!
+- This site is for potential employers and records my projects and ongoing explorations!
+- I used Replit & VS code to build this site!
 
 
 # To clone this site: 
