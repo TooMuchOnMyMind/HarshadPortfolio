@@ -1,1 +1,2 @@
-
+function myfunction():
+  alert("hello!")
