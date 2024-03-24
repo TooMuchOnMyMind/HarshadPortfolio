@@ -1,7 +1,8 @@
-#Harshad's Portfolio!
+# Harshad's Portfolio!
 This site is made using vercel!
 This site is for potential employers and records my projects and ongoing explorations!
 
 
+# To clone this site: 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
