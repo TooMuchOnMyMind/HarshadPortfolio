@@ -1,2 +1,2 @@
 function myfunction():
-  alert("hello!")
+  alert("hello")
