@@ -4,5 +4,3 @@
     "@vercel/edge": "^0.1.2"
   }
 }
-
-pnpm i @vercel/speed-insights
