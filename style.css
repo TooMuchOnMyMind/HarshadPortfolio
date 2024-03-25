@@ -1,46 +1,82 @@
 html {
-    height: 100%;
-    width: 100%;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background: radial-gradient(#0d1d31 0%, #0c0d13 100%);
-    background-size: 100%;
-    color: white;
-    font-family: 'Courier', monospace;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(#0d1d31 0%, #0c0d13 100%);
+  background-size: 100%;
+  color: white;
+  font-family: 'Courier', monospace;
+}
+
+.navigationbar {
+  background-image: linear-gradient(#c7c7c7, white);
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 15px 0;
+  transition-duration: 0.2s;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin: auto;
+}
+
+.navigationbar a {
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.navigationbar a:hover {
+  opacity: 20px;
+  background-color: #808080;
+  resize: 100%;
+
+}
+
+.navigationbar a.active {
+  background-color: #011726;
+  color: white;
+}
+
+
+header {
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Courier', monospace;
+  font-weight: bolder;
+  padding: 100px;
+}
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
   }
 
- .navigationbar {
-    background-image: linear-gradient(#c7c7c7,white);
-    overflow: hidden;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-   box-shadow: 0 5px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 15px 0;
+  50% {
+    transform: translate(0, 7px);
   }
-  .navigationbar a {
-    text-align: left;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 19px;
-    color: black;
+
+  100% {
+    transform: translate(0, -0px);
   }
-  
-  .navigationbar a:hover {
-    opacity: 20px;
-    background-color: #808080;
-    
-  }
-  .navigationbar a.active {
-    background-color: #011726;
-    color: white;
-  }
-  
-  header {
-    margin-top: 10px;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Courier', monospace;
-  }
-  
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  text-align: left;
+  border-radius: 50px;
+}
+
