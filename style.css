@@ -81,6 +81,8 @@ header {
   background: linear-gradient(to right, rgb(112, 67, 67), rgb(139, 92, 58));
   place-items: center;
   margin: 10px;
+  ou
+  
 
 }
 
@@ -121,12 +123,12 @@ header {
   font-weight: bold;
   color: #0a2601;
   box-shadow: 0 5px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 15px 0;
+  
 
 }
 
 .buybasic:hover {
-  background-color:rgba(247, 181, 0, 0.237);
+  background-color: rgba(247, 181, 0, 0.237);
   transform: scale(1.05);
   transition-duration: 0.2s;
-
 }
