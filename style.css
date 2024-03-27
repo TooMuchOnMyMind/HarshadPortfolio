@@ -38,7 +38,8 @@ body {
 .navigationbar a:hover {
   opacity: 20px;
   background-color: #808080;
-  resize: 100%;
+  transform: scale(1.05);
+  transition-duration: 0.2s;
 
 }
 
@@ -82,8 +83,6 @@ header {
   place-items: center;
   margin: 10px;
   ou
-  
-
 }
 
 .Premium {
@@ -96,8 +95,6 @@ header {
   place-items: center;
   margin: 10px;
   color: rgb(0, 0, 0)
-  
-
 }
 
 .buy {
@@ -110,7 +107,7 @@ header {
 }
 
 .buy:hover {
-  background-color:rgba(221, 255, 0, 0.132);
+  background-color: rgba(221, 255, 0, 0.132);
   transform: scale(1.05);
   transition-duration: 0.2s;
 
@@ -123,7 +120,7 @@ header {
   font-weight: bold;
   color: #0a2601;
   box-shadow: 0 5px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 15px 0;
-  
+
 
 }
 
