@@ -128,3 +128,20 @@ p {
   overflow: hidden;
   padding: 10px;
 }
+
+
+.project-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at center, #919191, black);
+  text-align: center;
+  overflow: hidden;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 
+  
+}
