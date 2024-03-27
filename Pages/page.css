@@ -63,7 +63,7 @@ button.Email {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
   margin: 10px;
   text-align: center;
-  
+
 
 }
 
@@ -95,8 +95,8 @@ p {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin: auto;
-  
-  
+
+
 
 }
 
@@ -128,7 +128,3 @@ p {
   overflow: hidden;
   padding: 10px;
 }
-
-
-
-
