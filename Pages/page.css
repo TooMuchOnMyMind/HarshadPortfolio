@@ -69,8 +69,11 @@ button.Email {
 
 button.Email:hover {
   opacity: 30%;
-  color: rgb(132, 132, 132)
+  color: rgb(132, 132, 132);
+  transform: scale(1.05);
+  transition-duration: 0.2s;
 }
+
 
 button.Email:hover {
   transition-duration: 0.2s;
@@ -86,13 +89,13 @@ p {
   border-style: double;
   border-width: auto;
   border-radius: 10px;
-  position: fixed;
   text-align: center;
   animation-name: floating;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin: auto;
+  
   
 
 }
@@ -125,3 +128,7 @@ p {
   overflow: hidden;
   padding: 10px;
 }
+
+
+
+
